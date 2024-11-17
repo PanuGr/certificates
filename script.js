@@ -1,8 +1,8 @@
 
       const images = document.querySelectorAll(".gallery-item img");
-      const videos = document.querySelectorAll(".gallery-item video");
-
       let imgSrc;
+
+      
       // get images src onclick
       images.forEach((img) => {
         img.addEventListener("click", (e) => {
