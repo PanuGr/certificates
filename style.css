@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+background-color: whitesmoke;
+}
 main {
   margin: auto;
   margin-block: 5rem;
