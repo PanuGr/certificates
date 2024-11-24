@@ -16,22 +16,22 @@ body {
 }
 
 
-img,svg,video,picture {
+img,svg,video,picture,figure {
   pointer-events: none;
   max-width: 100%;
+  height: 600px;
   display: block;
-}
-
-
-main {
-  margin-inline: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  justify-items: center;
-  gap: 10px;
 }
 
 h1 {
   text-align: center;
   padding: 1rem;
+}
+
+main {
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  justify-items: center;
+  gap: 10px;
 }
