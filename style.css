@@ -3,26 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  color-scheme: light dark;
+  scroll-behavior: smooth;
+}
+
 body {
-background-color: whitesmoke;
+  min-height: 100vh;
+  font-family: system-ui;
+  line-height: 1.5;
 }
-main {
-  margin: auto;
-  margin-block: 5rem;
-  padding-block-end: 10px;
-  background-color: var(--light-gray);
-  border-radius: 10px;
-}
-h1{text-align: center;}
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));}
 
 
-.gallery-item img {
+img,svg,video,picture {
   pointer-events: none;
-  display: block;
   max-width: 100%;
-  height: auto;
+  display: block;
+}
+
+
+main {
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 10px;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
 }
